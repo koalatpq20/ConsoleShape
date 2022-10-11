@@ -28,6 +28,7 @@ namespace ConsoleShape
 
                     Console.WriteLine(rect.Information);
                     break;
+
                 case 2:
                     Square square = new Square();
 
@@ -35,8 +36,8 @@ namespace ConsoleShape
                     square.Length1 = Convert.ToInt16(Console.ReadLine());
 
                     Console.WriteLine(square.Information);
-
                     break;
+
                 case 3:
                     Triangle triangle = new Triangle();
 
@@ -46,10 +47,9 @@ namespace ConsoleShape
                     triangle.Length3 = Convert.ToInt16(Console.ReadLine());
 
                     Console.WriteLine(triangle.Information);
-
                     break;
+
                 default:
-                    
                     break;
             }
 

@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace ConsoleShape
 {
     public class Triangle : Shape
-    {
-        public double Length2 { get; set; }
+    {        
         public double Length3 { get; set; }
         public double Height { get; set; }
 

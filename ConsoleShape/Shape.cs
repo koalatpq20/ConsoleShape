@@ -12,6 +12,7 @@ namespace ConsoleShape
     public abstract class Shape
     {
         public double Length1 { get; set; }
+        public double Length2 { get; set; }
 
         public abstract string ShapeType { get; }
         

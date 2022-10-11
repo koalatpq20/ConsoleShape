@@ -11,8 +11,6 @@ namespace ConsoleShape
     /// </summary>
     public class Rectangle : Shape
     {
-        public double Length2 { get; set; }
-
         public override string ShapeType => "Hình chữ nhật - Rectangle";
 
         public override double GetPerimeter()
